@@ -1,0 +1,209 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+
+  min-height:100vh;
+
+  background:
+  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
+  url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=2070&auto=format&fit=crop');
+
+  background-size:cover;
+  background-position:center;
+
+  color:white;
+}
+
+header{
+
+  width:100%;
+
+  padding:25px 8%;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+}
+
+.logo{
+
+  font-size:30px;
+
+  font-weight:700;
+
+  color:#00e5ff;
+}
+
+nav{
+
+  display:flex;
+
+  gap:30px;
+}
+
+nav a{
+
+  color:white;
+
+  text-decoration:none;
+
+  transition:0.3s;
+}
+
+nav a:hover{
+
+  color:#00e5ff;
+}
+
+.hero,
+.page{
+
+  min-height:85vh;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  flex-direction:column;
+
+  padding:40px;
+}
+
+.glass,
+.card,
+.contact-box{
+
+  background:rgba(255,255,255,0.08);
+
+  backdrop-filter:blur(20px);
+
+  border:1px solid rgba(255,255,255,0.1);
+
+  border-radius:25px;
+
+  padding:40px;
+
+  box-shadow:0 8px 32px rgba(0,0,0,0.4);
+}
+
+.glass{
+  width:400px;
+  text-align:center;
+}
+
+input,
+select,
+textarea{
+
+  width:100%;
+
+  padding:16px;
+
+  margin-top:15px;
+
+  border:none;
+
+  border-radius:15px;
+
+  outline:none;
+
+  background:white;
+
+  font-size:16px;
+}
+
+.selects{
+
+  display:flex;
+
+  gap:10px;
+}
+
+button{
+
+  width:100%;
+
+  margin-top:20px;
+
+  padding:16px;
+
+  border:none;
+
+  border-radius:15px;
+
+  background:
+  linear-gradient(135deg,#00c6ff,#0072ff);
+
+  color:white;
+
+  font-size:17px;
+
+  cursor:pointer;
+}
+
+.cards{
+
+  display:flex;
+
+  gap:30px;
+
+  flex-wrap:wrap;
+
+  justify-content:center;
+
+  margin-top:40px;
+}
+
+.card{
+
+  width:250px;
+
+  text-align:center;
+
+  transition:0.4s;
+}
+
+.card:hover{
+
+  transform:translateY(-10px);
+
+  box-shadow:
+  0 0 30px rgba(0,229,255,0.5);
+}
+
+.contact-box{
+
+  width:400px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:20px;
+}
+
+#result{
+
+  margin-top:25px;
+
+  font-size:22px;
+
+  font-weight:600;
+}.stock{
+  border:1px solid rgba(0,255,150,0.3);
+  box-shadow:0 0 25px rgba(0,255,150,0.15);
+}
+
+.stock:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 35px rgba(0,255,150,0.4);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | CurrencyPro</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+  <div class="logo">
+    💎 CurrencyPro
+  </div>
+
+  <nav>
+
+    <a href="home.html">Home</a>
+
+    <a href="rates.html">Rates</a>
+
+    <a href="crypto.html">Crypto</a>
+
+    <a href="contact.html">Contact</a>
+
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <div class="glass">
+
+    <h1>Dollar Kursi</h1>
+
+    <p>
+      Premium Real Time Currency Converter
+    </p>
+
+    <input type="number" id="amount" placeholder="Pul miqdorini kiriting">
+
+    <div class="selects">
+
+      <select id="fromCurrency">
+
+        <option value="USD">USD</option>
+
+        <option value="UZS">UZS</option>
+
+        <option value="EUR">EUR</option>
+
+      </select>
+
+      <select id="toCurrency">
+
+        <option value="UZS">UZS</option>
+
+        <option value="USD">USD</option>
+
+        <option value="EUR">EUR</option>
+
+      </select>
+
+    </div>
+
+    <button onclick="convertCurrency()">
+      Convert
+    </button>
+
+    <div id="result">
+      Natija shu yerda chiqadi
+    </div>
+
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
